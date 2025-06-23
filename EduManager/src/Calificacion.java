@@ -23,7 +23,7 @@ public class Calificacion implements Comparable<Calificacion> {
         return calificacion;
     }
 
-    / Para ordenar en el árbol, podemos ordenar primero por nombre de estudiante,
+    // Para ordenar en el árbol, podemos ordenar primero por nombre de estudiante,
     // y si son iguales, por nombre de materia
     @Override
     public int compareTo(Calificacion otra) {
